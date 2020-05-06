@@ -21,6 +21,7 @@ var car = {
 			console.log('turn car '+isOn)
 			if (isOn == true) {
 				this.isTurnedOn = true;
+				alert("Turned Off")
 			} else {
 				this.isTurnedOn = false;
 			}
