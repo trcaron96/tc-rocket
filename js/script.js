@@ -1,3 +1,8 @@
+var doCoolStuff = function () {
+	document.getElementById('cool').className = 'cool red';
+}
+
+
 var car = {
 		make: 'VW',
 		type: 'Polo',
@@ -14,7 +19,7 @@ var car = {
 			this.isTurnedOn = true;
 		},
 		fly: function () {
-			alert('fly');
+			alert('Hi Im Tom');
 		},
 
 		switchCar: function(isOn) {
